@@ -1,0 +1,177 @@
+/* my css page */
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h2, h3, h4{
+    font-family: 'Open+Sans:wght@300', sans-serif;
+    font-weight: 300;
+}
+p{
+    font-family: 'smooch sans', sans-serif;
+    font-size: 20px;
+    line-height: 0;
+}
+
+body{
+    background-image: url("../img/body.jpg");
+    background-repeat: no-repeat;
+}
+.container{
+    height:auto;
+    width:100%;
+    position: relative;
+    display: flex;
+}
+
+.container > section > .head {
+    height: 5px;
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.container > section > .head > h2 {
+    font-size: 40px;
+    color: #f8f8f8;
+    text-align: center;
+    border: none;
+    letter-spacing: 3px;
+    line-height: 1.5px;
+}
+
+h2 .smaller {
+    font-size: 20px;
+    display: inline-block;vertical-align: top;
+}
+
+
+.container > section > .head > hr.color-line {
+    border: none;
+    height: 6px;
+    width: 70em;
+    background: linear-gradient(to right, #f302d3,#c702f3, #1506da, #95ddf3, #95ddf3, #fff3ab);
+    opacity: 0.7;
+}
+
+.container > section + section > .name {
+    margin-top: 130em;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container > section + section > div > h1 {
+    letter-spacing: -0.08em;
+    color: #f8f8f8;
+    font-size: 18em;
+    line-height: 80%;
+    margin: 0;
+}
+
+.container > section + section > .name > hr.color-line2 {
+    border: none;
+    height: 6px;
+    width: 500px;
+    background: linear-gradient(to right, #de80ce, #95ddf3, #95ddf3, #FAF4AEFF);
+    opacity: 0.7;
+    left: 30%;
+}
+
+.container > section + section > .name > h2 {
+    color: skyblue;
+    font-size: 33px;
+    margin:0;
+}
+
+.container > section + section > .name > h2 > strong{
+    font-weight: 800
+}
+
+
+
+.container > section + section + section > .content {
+    margin-top: 148em;
+    position: absolute;
+    width: 100%;
+}
+
+.container > section + section + section > .content > p {
+    font-size: 30px;
+    color: rgba(248, 248, 248, 0.85);
+    letter-spacing: -0.04em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+p .smaller{
+    font-size: 20px;
+}
+
+.container > section + section + section > .head3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156em;
+    position: absolute;
+    width: 113%;
+}
+
+.container > section + section + section > .head3 > h3 {
+    color: rgba(248, 248, 248, 0.6);
+}
+
+h3 .smaller {
+    font-size: 10px;
+}
+
+.container > section + section + section + section > .rating {
+    color: rgba(248, 248, 248, 0.6);
+    margin-top: 157em;
+    text-align: center;
+    margin-left: 43px;
+}
+.container > section + section + section + section > .rating > h3 {
+    font-size: 20px;
+    line-height: 0.5;
+    margin-top: 0;
+    margin-bottom: 4.5px;
+}
+
+.container > section + section + section + section > .rating > h3 + h3 {
+    font-size: 5px;
+    margin: 0;
+}
+
+h3.smaller2 {
+    font-size: 1px;
+}
+
+footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer > .logo {
+    display: flex;
+    margin-top: 156em;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+footer > .logo > h4 {
+    font-size: 5px;
+    color: rgba(248, 248, 248, 0.85);
+    padding-top: 15%;
+}
+
+footer > .logo img {
+    width:40px;
+    height: auto;
+}
